@@ -1,0 +1,24 @@
+#buttonDiv {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 81px;
+    height: 40px;
+    background: #074EE8;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    margin-top: 30px;
+    cursor: pointer;
+
+    button {
+        border: none;
+        background: transparent;
+        color: white;
+        font-family: 'Nunito', sans-serif;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}

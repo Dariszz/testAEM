@@ -1,0 +1,22 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  input {
+      width: 99%;
+      height: 40px;
+      border: 2px solid #AAAAAA;
+      border-radius: 4px;
+      padding-left: 1%;
+    }
+
+  label {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #767676;
+  }
