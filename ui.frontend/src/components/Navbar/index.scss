@@ -1,56 +1,31 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-   nav {
-    margin: 0 15%;
-  }
-  
-  .info {
-    margin: 5% 9%;
-  }
-  
-  h4 {
-    font-family: 'Inter', sans-serif;
-  }
-  
-  .items {
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Nunito', sans-serif;
-  }
-  
-  .first-tab {
-    display: flex;
-    justify-content: center;
-    width: 230px;
-    border-bottom: 2px solid rgba(170, 170, 170, 1);
-    padding: 1.5% 0;
-  }
-  
-  .second-tab {
-    display: flex;
-    justify-content: center;
-    width: 230px;
-    border-bottom: 2px solid rgba(170, 170, 170, 1);
-    padding: 1.5% 0;
-  }
-  
-  .third-tab {
-    display: flex;
-    justify-content: center;
-    width: 230px;
-    border-bottom: 2px solid rgba(170, 170, 170, 1);
-    padding: 1.5% 0;
-  }
-  
-  li {
-    display: flex;
-    list-style: none;
-  }
-  
-  .active {
-    color: rgba(7, 78, 232, 1);
-    border-bottom: 3px solid rgba(7, 78, 232, 1);
-  }
+.info {
+  margin: 5% 0;
+}
+
+h4 {
+  font-family: 'Inter', sans-serif;
+}
+
+.items {
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Nunito', sans-serif;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border-bottom: 2px solid rgba(170, 170, 170, 1);
+  padding: 1.5% 0;
+}
+
+li {
+  display: flex;
+  list-style: none;
+}
+
+.active {
+  color: rgba(7, 78, 232, 1);
+  border-bottom: 3px solid rgba(7, 78, 232, 1);
+}

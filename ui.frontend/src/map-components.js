@@ -1,11 +1,12 @@
 import Text from './components/Text/Text'
-import CustomHeader from './components/CustomHeader/CustomHeader'
+import Empty from './components/Empty/index'
 import Navbar from './components/Navbar/index'
 import Button from './components/Button/index'
 import AppPage from './components/Page/AppPage'
 import CheckBox from './components/CheckBox/index'
 import GeneralInputs from './components/GeneralInputs/index'
 import DropDown from './components/DropDown/index'
+import Header from './components/Header/index'
 import {
   withComponentMappingContext,
   MapTo
@@ -14,11 +15,13 @@ import {
 // Text Component Mapping
 MapTo('vue/components/text')(Text)
 
-MapTo('vue/components/custom-header')(CustomHeader)
+MapTo('vue/components/empty')(Empty)
 
 MapTo('vue/components/button')(Button)
 
 MapTo('vue/components/navbar')(Navbar)
+
+MapTo('vue/components/header')(Header)
 
 MapTo('vue/components/input-checkbox')(CheckBox)
 

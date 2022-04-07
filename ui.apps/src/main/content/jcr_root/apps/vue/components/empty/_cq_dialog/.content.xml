@@ -1,0 +1,46 @@
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0"
+          xmlns:cq="http://www.day.com/jcr/cq/1.0"
+          xmlns:granite="http://www.adobe.com/jcr/granite/1.0"
+          xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Margin"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+   <content jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/coral/foundation/container">
+      <layout jcr:primaryType="nt:unstructured"
+              margin="{Boolean}false"
+              sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+      <items jcr:primaryType="nt:unstructured">
+         <column jcr:primaryType="nt:unstructured"
+                 sling:resourceType="granite/ui/components/coral/foundation/container">
+            <items jcr:primaryType="nt:unstructured">
+               <size cq-msm-lockable="./size"
+                     fieldLabel="Tamanho"
+                     jcr:primaryType="nt:unstructured"
+                     name="./size"
+                     size="xs"
+                     sling:resourceType="granite/ui/components/coral/foundation/form/radiogroup">
+                  <items jcr:primaryType="nt:unstructured">
+                     <small checked="{Boolean}true"
+                            jcr:primaryType="nt:unstructured"
+                            name="size"
+                            text="Small"
+                            value="xs"/>
+                     <medium checked="{Boolean}false"
+                             jcr:primaryType="nt:unstructured"
+                             name="size"
+                             text="Medium"
+                             value="md"/>
+                     <large checked="{Boolean}false"
+                            jcr:primaryType="nt:unstructured"
+                            name="size"
+                            text="Large"
+                            value="lg"/>
+                  </items>
+               </size>
+            </items>
+         </column>
+      </items>
+   </content>
+</jcr:root>

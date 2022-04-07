@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&display=swap%27)');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap%27)');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #e5e5e5;
+  height: 20vh;
+  font-family: 'Inter', sans-serif;
+  border-bottom: 1px solid #aaaaaa;
+}
+h1 {
+  color: #074ee8;
+}
+.text {
+  margin: 5%;
+}
