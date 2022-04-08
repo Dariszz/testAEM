@@ -13,10 +13,6 @@ export default {
     value: {
       type: String,
       default: 'Value'
-    },
-    text: {
-      type: String,
-      default: ''
     }
   },
   methods: {

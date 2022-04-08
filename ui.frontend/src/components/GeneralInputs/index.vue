@@ -22,6 +22,10 @@ export default {
       type: String,
       default: 'placeholder'
     }
+  },
+  updated () {
+    const container = document.querySelector('[cqpath="/content/vue/ThirdTab/jcr:content/root/responsivegrid/responsivegrid/responsivegrid"] div')
+    container.style.cssText = 'background-color: white; border-radius: 20px; margin-top: 2%'
   }
 }
 </script>

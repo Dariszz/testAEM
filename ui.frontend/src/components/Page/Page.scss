@@ -2,5 +2,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #E5E5E5;
+
+    @media (max-width: 601px) {
+        background-color: white;
+    }
 }
 
