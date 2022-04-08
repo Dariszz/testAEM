@@ -5,6 +5,7 @@ import Button from './components/Button/index'
 import AppPage from './components/Page/AppPage'
 import CheckBox from './components/CheckBox/index'
 import GeneralInputs from './components/GeneralInputs/index'
+import GeneralText from './components/GeneralText/index'
 import DropDown from './components/DropDown/index'
 import Header from './components/Header/index'
 import {
@@ -28,6 +29,8 @@ MapTo('vue/components/input-checkbox')(CheckBox)
 MapTo('vue/components/dropdown')(DropDown)
 
 MapTo('vue/components/general-inputs')(GeneralInputs)
+
+MapTo('vue/components/general-text')(GeneralText)
 
 // AppPage Mapping
 MapTo('vue/components/page')(withComponentMappingContext(AppPage))

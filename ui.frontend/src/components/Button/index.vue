@@ -22,6 +22,10 @@ export default {
       type: String,
       default: ''
     }
+  },
+  updated () {
+    const container = document.querySelector('[cqpath="/content/vue/vue/jcr:content/root/responsivegrid/responsivegrid/responsivegrid"] div')
+    container.style.cssText = 'background-color: white; border-radius: 20px; margin-top: 2%'
   }
 }
 </script>

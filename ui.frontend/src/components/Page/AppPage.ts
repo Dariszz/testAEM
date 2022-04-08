@@ -1,6 +1,7 @@
 import { Page, PageModel } from '@mavice/aem-vue-editable-components'
 import { Component, Mixins, Prop } from 'vue-property-decorator'
 import { Model } from '@adobe/aem-spa-page-model-manager'
+import './Page.scss'
 
 @Component
 export default class AppPage extends Mixins(Page) {
