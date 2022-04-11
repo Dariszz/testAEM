@@ -1,8 +1,7 @@
 <template>
   <div class="dropdown">
     <label :for="value">{{ value }}</label>
-    <select :name="value" :id="`${value}`" @mouseleave="funcAge">
-    </select>
+    <select :name="value" :id="`${value}`" @mouseleave="funcAge"></select>
   </div>
 </template>
 
@@ -50,9 +49,9 @@ export default {
       }
     },
     funcAge () {
-      const dayOption = document.querySelector('#Day')
       const yearOption = document.querySelector('#Year')
       const monthOption = document.querySelector('#Month')
+      const dayOption = document.querySelector('#Day')
 
       const date = new Date()
       const year = date.getFullYear()
@@ -60,7 +59,6 @@ export default {
       const month = date.getMonth()
 
       let age = 18
-
       if (monthOption.options[monthOption.selectedIndex].value > month) {
         age = year - yearOption.options[yearOption.selectedIndex].value - 1
       } else if (monthOption.options[monthOption.selectedIndex].value < month) {
@@ -72,7 +70,7 @@ export default {
           age = year - yearOption.options[yearOption.selectedIndex].value
         }
       }
-      localStorage.setItem('age', age)
+      sessionStorage.setItem('age', age)
     }
   },
   updated () {

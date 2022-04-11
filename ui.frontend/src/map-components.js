@@ -8,6 +8,8 @@ import GeneralInputs from './components/GeneralInputs/index'
 import GeneralText from './components/GeneralText/index'
 import DropDown from './components/DropDown/index'
 import Header from './components/Header/index'
+import Age from './components/Age/index'
+import Certificate from './components/Certificate/index'
 import {
   withComponentMappingContext,
   MapTo
@@ -31,6 +33,10 @@ MapTo('vue/components/dropdown')(DropDown)
 MapTo('vue/components/general-inputs')(GeneralInputs)
 
 MapTo('vue/components/general-text')(GeneralText)
+
+MapTo('vue/components/age')(Age)
+
+MapTo('vue/components/certificate')(Certificate)
 
 // AppPage Mapping
 MapTo('vue/components/page')(withComponentMappingContext(AppPage))

@@ -1,18 +1,36 @@
-.info {
-  margin: 3% 0;
-}
+// .info {
+//   margin: 1% 0;
+// }
 
 h4 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+  margin-top: 2%;
+  margin-bottom: 1%;
 }
 
 .items {
   display: flex;
   justify-content: space-around;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
-.tab {
+.tab1 {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border-bottom: 2px solid rgba(170, 170, 170, 1);
+  padding: 1.5% 0;
+}
+
+.tab2 {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border-bottom: 2px solid rgba(170, 170, 170, 1);
+  padding: 1.5% 0;
+}
+
+.tab3 {
   display: flex;
   justify-content: center;
   width: 50%;
@@ -26,6 +44,10 @@ li {
 }
 
 .active {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding: 1.5% 0;
   color: rgba(7, 78, 232, 1);
   border-bottom: 3px solid rgba(7, 78, 232, 1);
 }

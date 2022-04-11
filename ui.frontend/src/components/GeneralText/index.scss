@@ -1,9 +1,20 @@
 p {
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    color: #767676;
-    margin-top: 30px;
-}   
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #767676;
+  margin-top: 15px;
+}
+
+#error {
+  display: none;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ff0000;
+  margin-top: 34px;
+}

@@ -1,24 +1,31 @@
 <template>
-  <div className={${style[size.size]}}></div>
+  <div>
+    <div :class="$style[size]"></div>
+  </div>
 </template>
 
 <script>
 // Imports
-import style from './index.module.scss'
+
 export default {
   name: 'Empty',
   props: {
     size: {
       type: String,
-      default: 'medium'
+      default: 'xs'
     }
-  },
-  style () {
-    return style[this.size]
   }
 }
 </script>
 
-<style>
-
+<style module>
+.xs {
+  padding: 1em 0;
+}
+.md {
+  padding: 4em 0;
+}
+.lg {
+  padding: 8em 0;
+}
 </style>

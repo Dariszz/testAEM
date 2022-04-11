@@ -1,23 +1,39 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+input {
+  height: 25px;
+  border: 2px solid #aaaaaa;
+  border-radius: 4px;
+  padding-left: 1%;
+}
+
+label {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #767676;
+}
+
+.divLabel {
+  display: flex;
+  align-items: center;
+
+  .hidden {
+    display: none;
   }
 
-  input {
-      
-      height: 40px;
-      border: 2px solid #AAAAAA;
-      border-radius: 4px;
-      padding-left: 1%;
-      
-    }
-
-  label {
-    font-family: 'Nunito';
+  p {
+    font-family: "Nunito";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: #767676;
+    color: #ff0000;
   }
+}

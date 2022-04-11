@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap%27");
+
+label {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  color: #aaaaaa;
+}
+
+.htmlAge {
+  font-family: "Nunito", sans-serif;
+  background: #ffffff;
+  border: 2px solid #aaaaaa;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 4px 0px;
+  font-size: 14px;
+  padding-left: 5%;
+  color: #767676;
+  height: 25px;
+}

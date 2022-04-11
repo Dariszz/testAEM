@@ -1,14 +1,12 @@
 <template>
-
-  <label class="container">{{ text }}
-    <input type="Checkbox" name="checkbox" class="checkbox">
+  <label class="container"
+    >{{ text }}
+    <input type="Checkbox" name="checkbox" class="checkbox" id="checkboxId" />
     <span class="checkmark"></span>
   </label>
-
 </template>
 
 <script>
-
 export default {
   name: 'InputCheckbox',
   props: {
@@ -21,5 +19,5 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    @import "./index.scss";
+@import "./index.scss";
 </style>

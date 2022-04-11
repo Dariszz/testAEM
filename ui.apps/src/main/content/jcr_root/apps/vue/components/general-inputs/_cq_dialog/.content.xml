@@ -16,12 +16,26 @@
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="Text"
                         name="./text"/>
+                        <idInput
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="idInput"
+                        name="./idInput"/>
+                        <messageError
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="MessageError"
+                        name="./messageError"/>
+                        <textError
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="textError"
+                        name="./textError"/>
                     <placeholder
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldLabel="Placeholder"
                         name="./placeholder"/>
-                    
                             <type
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/foundation/form/radiogroup"
@@ -48,9 +62,31 @@
                                         cq-msm-lockable="type"
                                         renderReadOnly="{Boolean}true"
                                         text="Telefone"
-                                        value="tel"/>   
+                                        value="tel"/>
                                 </items>
                             </type>
+                            <required
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/radiogroup"
+                                fieldLabel="Is Required?"
+                                name="./required">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <option1
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/radio"
+                                        cq-msm-lockable="type"
+                                        renderReadOnly="{Boolean}true"
+                                        text="Yes"
+                                        value="true"/>
+                                    <option2
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/radio"
+                                        cq-msm-lockable="type"
+                                        renderReadOnly="{Boolean}true"
+                                        text="No"
+                                        value='false'/>   
+                                </items>
+                            </required>
                 </items>
             </column>
         </items>

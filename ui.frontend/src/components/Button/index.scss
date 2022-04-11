@@ -1,23 +1,24 @@
 #buttonDiv {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    background: #074EE8;
-    border-radius: 4px;
-    color: white;
-    border: none;
-    font-size: 14px;
-    margin-top: 15px;
-    cursor: pointer;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #074ee8;
+  border-radius: 4px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
 
-    button {
-        border: none;
-        background: transparent;
-        color: white;
-        font-family: 'Nunito', sans-serif;
-        font-size: 16px;
-        cursor: pointer;
-    }
+  button {
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
 }

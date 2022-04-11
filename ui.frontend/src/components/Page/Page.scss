@@ -1,10 +1,10 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #E5E5E5;
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
+  overflow-y: hidden;
 
-    @media (max-width: 601px) {
-        background-color: white;
-    }
+  @media (max-width: 601px) {
+    background-color: white;
+  }
 }
-
